@@ -1,0 +1,138 @@
+header {
+    justify-items: center;
+    padding: 8rem 0rem 2rem;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    font-size: 1rem;
+}
+
+aside {
+    background: linear-gradient(250deg, rgb(196, 155, 127) 60%, white 60%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10rem;
+    align-items: center;
+    padding: 5rem;
+}
+
+.comments h2 {
+    width: 100%;
+    text-align: justify;
+    font-size: 26px;
+}
+
+.photoContainer {
+    display: inline-flex;
+    justify-content: center;
+    padding: 0.5rem;
+    background-color: white;
+    box-shadow: 0rem 0rem 2rem 1px rgba(0, 0, 0, 0.551);
+}
+
+.nom {
+    padding: 2rem 0rem;
+    color: white;
+    background-color: rgb(42, 42, 42);
+    writing-mode: sideways-lr;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+}
+
+main {
+    padding: 20rem 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(250deg, rgb(24, 24, 24) 50%, rgb(42, 42, 42) 100%);
+    justify-content: center;
+    gap: 10rem;
+}
+
+.name, .surname {
+    margin: 0;
+}
+
+.logoUni {
+    width: 33rem;
+}
+
+.aPropos {
+    justify-items: center;
+}
+
+.infos {
+    margin-top: 10rem;
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.downloadCV-btn, .contactBTN {
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s ease-in-out;
+    color: lightgreen;
+    padding: 0.5rem;
+}
+
+.downloadCV-btn:hover, .contactBTN:hover {
+    color: rgb(73, 116, 73);
+}
+
+section {
+    padding: 10rem 10rem;
+}
+
+.comp-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.comp-container div {
+    background-color: rgb(196, 155, 127);
+    padding: 1rem;
+    height: 30rem;
+    width: 30rem;
+}
+
+.internship-search {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 1rem; /* Optional: Add padding as needed */
+    text-align: center; /* Center text */
+}
+
+.comp h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 10rem;
+}
+
+.competences {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    header, aside, main, section {
+        padding: 2rem;
+    }
+    .downloadCV-btn, .contactBTN {
+        font-size: 0.8rem;
+    }
+    .comp-container {
+        flex-direction: column;
+    }
+}

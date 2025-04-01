@@ -1,0 +1,31 @@
+@font-face { font-family: FontThin; src: url('../fonts/THIN.ttf'); }
+@font-face { font-family: FontExtraLight; src: url('../fonts/EXTRALIGHT.ttf'); }
+@font-face { font-family: FontHeavy; src: url('../fonts/HEAVY.ttf'); }
+
+html {
+    font-family: FontThin;
+}
+
+body {
+    margin: 0;
+}
+
+.nav_name h2,
+.aPropos h3 {
+    font-family: FontExtraLight;
+}
+
+aside h1,
+.aPropos h1,
+.infos h1,
+.downloadCV-btn,
+.contactBTN,
+.comp-title,
+#contact h2,
+.comp h1 {
+    font-family: FontHeavy;
+}
+
+.textGras {
+    text-decoration: underline;
+}

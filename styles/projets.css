@@ -1,0 +1,52 @@
+header {
+    padding-top: 15rem;
+    padding-bottom: 7rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem; /* Taille de la police pour le titre */
+    margin: 0;
+}
+
+.projects {
+    padding: 0rem 10rem 10rem 10rem;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column; /* Affiche les projets en colonne */
+    gap: 20px; /* Espace entre les projets */
+}
+
+.project-content {
+    display: flex;
+    align-items: center; /* Aligne la description et l'image verticalement */
+}
+
+.project-description {
+    flex: 1; /* Prend tout l'espace disponible à gauche */
+    margin-right: 20px; /* Espace entre la description et l'image */
+}
+
+.project-image img {
+    max-width: 100%; /* S'assure que l'image ne déborde pas */
+    height: auto; /* Garde les proportions de l'image */
+    width: 40rem;
+    border: 2px solid #666;
+}
+
+.project-date {
+    font-style: italic; /* Style pour la date */
+    color: #666; /* Couleur de la date */
+}
+
+@media (max-width: 768px) {
+    .project-container {
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+    .project-image img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+        <base href="/">
+		<link rel="stylesheet" href="/styles/formulaire.css" />
+		<script type="module" src="/js/head_footer.js"></script>
+	</head>
+
+	<body>
+		<my-header></my-header>
+		<section id="contact">
+			<h2>Des questions ?</h2>
+			<form action="https://formsubmit.co/abu.azabar@gmail.com" method="POST" id="contactForm">
+				<label for="name">Nom:</label>
+				<input type="text" id="name" name="name" required>
+		
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+		
+				<label for="subject">Sujet:</label>
+				<input type="text" id="subject" name="subject" required>
+		
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+		
+				<button type="submit">Envoyer !</button>
+			</form>
+		</section>
+		<my-footer></my-footer>
+	</body>
+</html>

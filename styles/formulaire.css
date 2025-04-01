@@ -1,0 +1,46 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form */
+    margin: 12rem 0; /* Add some margin */
+}
+
+#contact h2 {
+    color: lightgreen; /* Match your site's color scheme */
+    margin-bottom: 1rem; /* Space below the heading */
+}
+
+form {
+    background-color: rgb(42, 42, 42); /* Match footer background */
+    padding: 2rem 10rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    width: 100%;
+    max-width: 600px; /* Limit the width */
+}
+
+label {
+    color: white; /* Label color */
+    margin: 0.5rem 0; /* Space around labels */
+}
+
+input, textarea {
+    width: 100%; /* Full width */
+    padding: 0.5rem; /* Padding inside inputs */
+    margin-bottom: 1rem; /* Space below inputs */
+    border: none; /* Remove default border */
+    background-color: rgb(255, 255, 255); /* Input background */
+    color: black; /* Input text color */
+}
+
+button {
+    background-color: lightgreen; /* Button color */
+    color: white; /* Button text color */
+    padding: 0.5rem 1rem; /* Padding inside button */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: rgb(73, 116, 73); /* Darker shade on hover */
+}
