@@ -5,8 +5,8 @@ class myHeader extends HTMLElement {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>PORTFOLIO : AZABAR Aboubaker</title>
 
-                <link rel="stylesheet" href="/styles/font.css" />
-                <link rel="stylesheet" href="/styles/head_footer.css" />
+                <link rel="stylesheet" href="./styles/font.css" />
+                <link rel="stylesheet" href="./styles/head_footer.css" />
             </head>
 
             <div class="myNav">
@@ -19,9 +19,9 @@ class myHeader extends HTMLElement {
                 </div>
 
                 <nav>
-                    <a href="index.html" aria-label="About Me"><b>A PROPOS DE MOI</b></a>
-                    <a href="pages/projets.html" aria-label="My Projects"><b>MES PROJETS</b></a>
-                    <a href="pages/disBonjour.html" aria-label="Say Hello"><b>DIS BONJOUR</b></a>
+                    <a href="./index.html" aria-label="About Me"><b>A PROPOS DE MOI</b></a>
+                    <a href="./pages/projets.html" aria-label="My Projects"><b>MES PROJETS</b></a>
+                    <a href="./pages/disBonjour.html" aria-label="Say Hello"><b>DIS BONJOUR</b></a>
                 </nav>
             </div>
         `;
