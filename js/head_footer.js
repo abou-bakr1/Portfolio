@@ -4,7 +4,7 @@ class myHeader extends HTMLElement {
             <head>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <title>PORTFOLIO : AZABAR Aboubaker</title>
-
+                <base href="./">
                 <link rel="stylesheet" href="./styles/font.css" />
                 <link rel="stylesheet" href="./styles/head_footer.css" />
             </head>
